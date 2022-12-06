@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box; 
+  }
+
+  body {
+    background-color: rgb(251, 28, 247);
+    position: relative;
+    
+  }
+.container {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 10vw;
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke: .3vw;
+  text-align: right;
+
+}
+
+.link {
+  color: white ;
+  text-decoration: unset;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 7vw; 
+  text-shadow: 0 0 20px greenyellow, 0 0 20px greenyellow, 0 0 20px greenyellow,0 0 20px greenyellow;
+  position: absolute;
+  top: 10vw; 
+  right: 39vw;
+
+}
+.link:hover {
+  text-shadow: unset;
+    }
+
+
+    .essay {
+        position: absolute;
+        z-index:9;
+        width: 50vw;
+        font-size: 22px;
+    font-style: normal;
+    font-size: 35px;
+    font-family: arial, sans-serif;
+    color: aquamarine;
+    top: 23vw;
+    left: 2vw;
+      
+      }
+
+      .img {
+        width: 500px;
+        box-shadow: 20px 20px 20px aqua;
+        position: absolute;
+        transition: .2s;
+        z-index: -1;
+      }
+  
+.paragraph-right {
+  display: inline-block;
+  margin-left: 45vw;
+  width: 50vw;
+  position: relative;
+}
+.paragraph-left {
+  position: relative;
+}

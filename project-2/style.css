@@ -1,0 +1,108 @@
+body {
+    color: #97e900;
+    font-family: "BIZ UDMincho";
+}
+
+img {
+    position: fixed;
+    top: 367px;
+    left: 30px;
+}
+
+.image1 {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
+.image2 {
+    position: absolute;
+    top: 450px;
+    left: 67px;
+}
+
+.image3 {
+    position: absolute;
+    top: 50px;
+    left: 79px;
+}
+p {
+    position:fixed;
+    font-family: "BIZ UDMincho";
+    font-weight: normal;
+    font-size: 100px;
+    color: #97e900;
+}
+
+.link {
+    font-family: "BIZ UDMincho";
+    font-weight: normal;
+    font-size: 100px;
+    color: #97e900;
+    text-decoration: none;
+}
+
+#MyVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header {
+    position: absolute;
+    top: 30%;
+    padding: 70px 16px;
+    color: #97e900;
+    font-size: 250px; 
+    font-stretch: ultra-condensed;
+}
+
+body {
+    background-color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    display: block;
+}
+
+p {
+    position: absolute;
+    font-family: "BIZ UDMincho";
+    font-weight: normal;
+    font-size: 100px;
+    color: #97e900;
+}
+
+#header_logo
+{
+Float: left;
+Margin: some value;
+Padding: some value;
+}
+
+#container {
+    cursor   : none;
+ }
+ 
+ #cursor {
+   position  : absolute;
+   z-index   : 10000;
+   width     : 70px;
+   height    : 70px;
+   background: transparent url(flaganim.gif) 0 0 no-repeat;
+   background-size: contain;
+   pointer-events: none;
+ }
+
+ img {
+
+    position: fixed;
+    top: -70px;
+    left: 30px;
+}
